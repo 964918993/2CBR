@@ -64,10 +64,9 @@ Second, train our method:
     
     bash scripts/eval_attMPTI.sh
 
-####Note
+#### Note
 1. The above scripts are used for 2-way 1-shot task on S3DIS (S1). You can modify the corresponding hyperparameters (SPLIT, dataset and model_checkpoint_path if you run evaluation script) to conduct experiments on other settings. 
 2. We provide pre-training models and related models in the paper, but the sampling process of the test set is random, so there will be some errors in the results when testing.
 
 ## Acknowledgement
-We thank AttMPTI (pytorch) for sharing their source code.
 We thank [AttMPTI (pytorch)](https://github.com/Na-Z/attMPTI) for sharing their source code.
